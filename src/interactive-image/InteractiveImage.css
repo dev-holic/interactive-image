@@ -1,0 +1,12 @@
+.hidden-canvas {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.piece-canvas {
+  display: inline-block;
+  vertical-align: top;
+  animation: moveCanvas 1.5s steps(1);
+}
